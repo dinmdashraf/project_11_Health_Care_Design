@@ -1,0 +1,82 @@
+@media (max-width: 392px) { 
+    .banner-content{
+
+        h1{
+            font-size: 50px;
+        }
+    }
+}
+@media (min-width: 992px) { 
+    #header-section{
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(255,255,255,1) 51%, rgba(15,188,249,1) 51%);
+        
+    }
+    nav{
+        .phone{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    #banner-cards-section{
+        margin-top: -20px;
+    }
+}
+@media (max-width: 992px) { 
+    header{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        background: white;
+        border-bottom: 1px solid #0FBCF9 !important;
+        
+        nav{
+            .nav-list{
+                background: white;
+                li{
+                    a{
+                        color: #0FBCF9 !important;
+                        transition: 0.1s ease-in-out;
+                    }
+                    a:hover{
+                        background: #31a5ec;
+                        border-radius: 22px;
+                        color: white !important;
+                        border: 1px solid white;
+                    }
+                }
+                
+            }
+            
+        }
+    
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    nav{
+        .nav-list{
+            li{
+                a{
+                    font-size: 11pt !important;
+                }
+            }
+            .phone{
+                span{
+                    font-size: 11pt !important;
+                }
+            }
+            
+        }
+        
+    }
+    #banner-cards-section{
+        margin-top: -50px;
+    }
+}
+@media (min-width: 392.89px) and (max-width: 401.98px) { 
+    #banner-cards-section{
+        margin-top: 85px;
+    }
+}

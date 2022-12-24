@@ -1,0 +1,121 @@
+/* Universal css */
+$color1: #0FBCF9;
+$color2: #65CD64;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.green{
+    color: $color2 !important;
+}
+.blue{
+    color: $color1 !important;
+}
+.bg-blue{
+    background: $color1 !important;
+}
+.bg-green{
+    background: $color2!important;
+}
+.nav-color{
+    background: $color1 !important;
+}
+.btn-color{
+    background: $color2!important;
+}
+.bg-muted{
+    background: #F5F5F5 !important;
+}
+.fnt-size0{
+    font-size: 10pt !important;
+}
+.fnt-size1{
+    font-size: 13pt !important;
+}
+.fnt-size2{
+    font-size: 15pt !important;
+}
+
+/* Page css */
+
+
+#header-section{
+    position:sticky;
+    top: 0; 
+    z-index: 100001;
+}
+nav {
+    .phone{
+        background: #31a5ec;
+        border-radius: 20px;
+        font-size: 13pt;
+    }
+    .nav-list{
+        background: $color1;
+    }
+}
+
+#Banner-section{
+    background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url("images/img1.jpg") ;
+    background-size: cover;
+    background-position: center;
+    height: 692px;
+    position: relative;
+}
+
+.banner-content{
+    padding-top: 30%;
+    h1{
+        font-size: 70px;
+        color: white;
+    }
+    p{
+        font-size: 25px;
+    }
+    span{
+        font-size: 15px;
+    }
+}
+
+.bg-center{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#services-section{
+    background:url("images/bg1.jpg") ;
+    background-size: cover;
+    background-position: center;
+    height: 592px;
+    position: relative;
+}
+
+.card{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.location-card{
+    height: 225px;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.location-card-body{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#Footer-section{
+    background-color: #2D404F;
+}
